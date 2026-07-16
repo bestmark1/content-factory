@@ -27,7 +27,8 @@ content-factory/
 │   ├── redpolicy-essay/
 │   ├── redpolicy-overview/
 │   ├── redpolicy-guide/
-│   └── learn/
+│   ├── learn/
+│   └── style-profile/
 │
 ├── scripts/
 │   └── lint-text.sh
