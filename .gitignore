@@ -8,6 +8,7 @@
 # Work materials
 input/*
 !input/.gitkeep
+!input/demo-smoke-test.md
 output/*
 !output/.gitkeep
 

@@ -41,6 +41,7 @@ content-factory/
 │   ├── add-content-type.md
 │   ├── install.md
 │   ├── publishing-checklist.md
+│   ├── smoke-test.md
 │   ├── system-overview.md
 │   └── repository-map.md
 │
@@ -48,7 +49,8 @@ content-factory/
 │   └── README.md
 │
 ├── input/
-│   └── .gitkeep
+│   ├── .gitkeep
+│   └── demo-smoke-test.md
 │
 └── output/
     └── .gitkeep
