@@ -28,7 +28,8 @@ content-factory/
 │   ├── redpolicy-overview/
 │   ├── redpolicy-guide/
 │   ├── learn/
-│   └── style-profile/
+│   ├── style-profile/
+│   └── new-format/
 │
 ├── scripts/
 │   └── lint-text.sh
