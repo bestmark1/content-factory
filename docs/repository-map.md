@@ -18,7 +18,9 @@ content-factory/
 │   ├── good-writing/
 │   │   ├── SKILL.md
 │   │   ├── antipatterns.md
-│   │   └── writer-checklist.md
+│   │   ├── writer-checklist.md
+│   │   └── scripts/
+│   │       └── lint-text.sh
 │   ├── write-article/
 │   ├── write-essay/
 │   ├── write-overview/
@@ -31,9 +33,6 @@ content-factory/
 │   ├── style-profile/
 │   ├── new-format/
 │   └── repackage/
-│
-├── scripts/
-│   └── lint-text.sh
 │
 ├── templates/
 │   ├── project-profile.md
@@ -70,7 +69,7 @@ content-factory/
 
 `skills/` хранит переиспользуемые инструкции и конвейеры. Общие шаги всех `write-*` скиллов лежат в `skills/pipeline-core.md`; в самих `write-*` — только специфика формата.
 
-`scripts/` хранит исполняемые проверки. `lint-text.sh` ловит механические антипаттерны поиском по шаблонам — запускается на финальной проверке.
+`skills/good-writing/scripts/lint-text.sh` — линтер механических антипаттернов, запускается на финальной проверке. Лежит внутри скилла, чтобы при глобальной установке ехать вместе со `skills/`.
 
 `templates/` хранит заполняемые файлы для проекта пользователя.
 
