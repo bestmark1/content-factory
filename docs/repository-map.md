@@ -17,7 +17,8 @@ content-factory/
 │   ├── pipeline-core.md
 │   ├── good-writing/
 │   │   ├── SKILL.md
-│   │   └── antipatterns.md
+│   │   ├── antipatterns.md
+│   │   └── writer-checklist.md
 │   ├── write-article/
 │   ├── write-essay/
 │   ├── write-overview/
