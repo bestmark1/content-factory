@@ -29,7 +29,8 @@ content-factory/
 │   ├── redpolicy-guide/
 │   ├── learn/
 │   ├── style-profile/
-│   └── new-format/
+│   ├── new-format/
+│   └── repackage/
 │
 ├── scripts/
 │   └── lint-text.sh
@@ -38,6 +39,7 @@ content-factory/
 │   ├── project-profile.md
 │   ├── content-type-profile.md
 │   ├── redpolicy-template.md
+│   ├── channel-profile.md
 │   ├── example-pack.md
 │   └── quality-checklist.md
 │
