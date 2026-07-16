@@ -14,6 +14,7 @@ content-factory/
 │   └── writer.md
 │
 ├── skills/
+│   ├── pipeline-core.md
 │   ├── good-writing/
 │   │   ├── SKILL.md
 │   │   └── antipatterns.md
@@ -56,7 +57,7 @@ content-factory/
 
 `agents/` хранит роли.
 
-`skills/` хранит переиспользуемые инструкции и конвейеры.
+`skills/` хранит переиспользуемые инструкции и конвейеры. Общие шаги всех `write-*` скиллов лежат в `skills/pipeline-core.md`; в самих `write-*` — только специфика формата.
 
 `templates/` хранит заполняемые файлы для проекта пользователя.
 
