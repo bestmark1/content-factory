@@ -26,7 +26,8 @@ content-factory/
 │   ├── redpolicy-article/
 │   ├── redpolicy-essay/
 │   ├── redpolicy-overview/
-│   └── redpolicy-guide/
+│   ├── redpolicy-guide/
+│   └── learn/
 │
 ├── scripts/
 │   └── lint-text.sh
