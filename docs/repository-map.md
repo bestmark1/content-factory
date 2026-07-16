@@ -28,6 +28,9 @@ content-factory/
 │   ├── redpolicy-overview/
 │   └── redpolicy-guide/
 │
+├── scripts/
+│   └── lint-text.sh
+│
 ├── templates/
 │   ├── project-profile.md
 │   ├── content-type-profile.md
@@ -61,6 +64,8 @@ content-factory/
 `agents/` хранит роли.
 
 `skills/` хранит переиспользуемые инструкции и конвейеры. Общие шаги всех `write-*` скиллов лежат в `skills/pipeline-core.md`; в самих `write-*` — только специфика формата.
+
+`scripts/` хранит исполняемые проверки. `lint-text.sh` ловит механические антипаттерны поиском по шаблонам — запускается на финальной проверке.
 
 `templates/` хранит заполняемые файлы для проекта пользователя.
 
