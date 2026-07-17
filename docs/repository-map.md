@@ -14,9 +14,13 @@ content-factory/
 │   └── writer.md
 │
 ├── skills/
+│   ├── pipeline-core.md
 │   ├── good-writing/
 │   │   ├── SKILL.md
-│   │   └── antipatterns.md
+│   │   ├── antipatterns.md
+│   │   ├── writer-checklist.md
+│   │   └── scripts/
+│   │       └── lint-text.sh
 │   ├── write-article/
 │   ├── write-essay/
 │   ├── write-overview/
@@ -24,12 +28,17 @@ content-factory/
 │   ├── redpolicy-article/
 │   ├── redpolicy-essay/
 │   ├── redpolicy-overview/
-│   └── redpolicy-guide/
+│   ├── redpolicy-guide/
+│   ├── learn/
+│   ├── style-profile/
+│   ├── new-format/
+│   └── repackage/
 │
 ├── templates/
 │   ├── project-profile.md
 │   ├── content-type-profile.md
 │   ├── redpolicy-template.md
+│   ├── channel-profile.md
 │   ├── example-pack.md
 │   └── quality-checklist.md
 │
@@ -39,6 +48,7 @@ content-factory/
 │   ├── add-content-type.md
 │   ├── install.md
 │   ├── publishing-checklist.md
+│   ├── smoke-test.md
 │   ├── system-overview.md
 │   └── repository-map.md
 │
@@ -46,7 +56,8 @@ content-factory/
 │   └── README.md
 │
 ├── input/
-│   └── .gitkeep
+│   ├── .gitkeep
+│   └── demo-smoke-test.md
 │
 └── output/
     └── .gitkeep
@@ -56,7 +67,9 @@ content-factory/
 
 `agents/` хранит роли.
 
-`skills/` хранит переиспользуемые инструкции и конвейеры.
+`skills/` хранит переиспользуемые инструкции и конвейеры. Общие шаги всех `write-*` скиллов лежат в `skills/pipeline-core.md`; в самих `write-*` — только специфика формата.
+
+`skills/good-writing/scripts/lint-text.sh` — линтер механических антипаттернов, запускается на финальной проверке. Лежит внутри скилла, чтобы при глобальной установке ехать вместе со `skills/`.
 
 `templates/` хранит заполняемые файлы для проекта пользователя.
 
