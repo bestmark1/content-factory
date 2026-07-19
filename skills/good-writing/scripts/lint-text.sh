@@ -71,7 +71,7 @@ check "Проценты — проверь, есть ли рядом абсол�
   '[0-9]+ ?%'
 
 # Незакрытые плейсхолдеры — блокирующая проверка перед финализацией
-PLACEHOLDERS=$(grep -nE '(URL-не-найден|URL-TODO|\[Вставить|\[ссылка\]|\[TODO)' "$FILE" 2>/dev/null || true)
+PLACEHOLDERS=$(grep -nE '(URL-не-найден|URL-TODO|\[Вставить|\[ссылка\]|\[TODO|, в работе\]|\[в работе|\[уточнить|уточнить\]|\[скоро|\[будет|XXX)' "$FILE" 2>/dev/null || true)
 if [ -n "$PLACEHOLDERS" ]; then
   N=$(printf '%s\n' "$PLACEHOLDERS" | wc -l | tr -d ' ')
   echo
