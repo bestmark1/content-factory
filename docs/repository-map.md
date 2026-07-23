@@ -29,6 +29,7 @@ content-factory/
 │   ├── redpolicy-essay/
 │   ├── redpolicy-overview/
 │   ├── redpolicy-guide/
+│   ├── redpolicy-seo-page/
 │   ├── learn/
 │   ├── style-profile/
 │   ├── new-format/
