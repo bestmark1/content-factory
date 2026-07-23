@@ -25,6 +25,8 @@ content-factory/
 │   ├── write-essay/
 │   ├── write-overview/
 │   ├── write-guide/
+│   ├── write-seo-page/
+│   ├── redpolicy-seo-page/
 │   ├── redpolicy-article/
 │   ├── redpolicy-essay/
 │   ├── redpolicy-overview/
